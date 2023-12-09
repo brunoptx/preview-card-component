@@ -33,7 +33,7 @@ body {
 }
 
 .main {
-    display: flex;
+    Background-color: var(--background);
     display: compact;
     max-width: 960px;
     font-size: 15px;
