@@ -10,7 +10,7 @@
 
 h2 {
     font-family: 'Big Shoulders Display',
-    cursive;
+        cursive;
     text-transform: uppercase;
     color: white;
     font-size: 30px;
@@ -38,8 +38,6 @@ body {
     max-width: 960px;
     font-size: 15px;
     box-shadow: 0 2px 10px #2f2f2f;
-    justify-content: center;
-    align-items: center;
 }
 
 .wrapper {
