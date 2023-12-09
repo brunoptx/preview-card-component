@@ -22,6 +22,9 @@ p {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     min-height: 100vh;
     font-size: 15px;
     font-family: 'Lexend Deca',
