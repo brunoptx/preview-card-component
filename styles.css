@@ -36,8 +36,10 @@ body {
     Background-color: var(--background);
     display: compact;
     max-width: 960px;
-    font-size: 15px;
+    font-size: 0.9375rem;
     box-shadow: 0 2px 10px #2f2f2f;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper {
@@ -46,7 +48,7 @@ body {
     border-radius: 7px;
     overflow: hidden;
     border: none;
-    margin: 10%;
+    margin: 14% 8%;
 }
 
 .box {
