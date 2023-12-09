@@ -1,0 +1,90 @@
+/* CSS style code */
+
+:root {
+    --sedans: #E38826;
+    --suvs: #006970;
+    --luxury: #004241;
+    --background: hsl(0, 0%, 95%);
+    --transparent_white: #FFFFFFBF;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display',
+    cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    color: var(--transparent_white);
+    line-height: 1.6;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: 'Lexend Deca',
+        sans-serif;
+    font-weight: 400;
+}
+
+.main {
+    max-width: 960px;
+    font-size: 15px;
+    box-shadow: 0 2px 4px #2f2f2f;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10%;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.sedans {
+    background-color: var(--sedans);
+}
+
+.suvs {
+    background-color: var(--suvs);
+}
+
+.luxury {
+    background-color: var(--luxury);
+}
+
+img {
+    align-self: flex-start;
+}
+
+.button {
+    align-self: flex-start;
+    background-color: var(--background);
+    mix-blend-mode: screen;
+    padding: 13px 27px; /* Button size */
+    border: 2px solid var(--background);
+    border-radius: 26px; /* Round corners */
+    transition: background-color 0.3s ease;
+    margin-top: 60px; /* Vertical position */
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--background);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
